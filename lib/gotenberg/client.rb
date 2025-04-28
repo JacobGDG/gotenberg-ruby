@@ -16,7 +16,7 @@ module Gotenberg
         c.request :url_encoded
         c.adapter :net_http
         c.response :raise_error
-        conn.options.timeout = 300
+        c.options.timeout = 300
       end
     end
 
